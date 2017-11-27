@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="10dp"
+    >
+    <ImageView
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="100dp"
+        android:src="@drawable/people"
+        android:layout_width="150dp"
+        android:layout_height="150dp" />
+
+    <TextView
+        android:textColor="#894a02"
+        android:layout_gravity="center_horizontal"
+        style="@style/Base.TextAppearance.AppCompat.Headline"
+        android:textAllCaps="true"
+        android:text="butani"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:id="@+id/lgn_login"
+        android:background="#e7920a"
+        android:text="Login"
+        android:textColor="#fcfbfb"
+        android:layout_width="180dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center_horizontal"/>
+    <Button
+        android:background="#3b8c68"
+        android:text="info"
+        android:textColor="#fffefe"
+        android:layout_width="180dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center_horizontal"/>
+</LinearLayout>

@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    >
+
+    <LinearLayout
+        android:layout_width="280dp"
+        android:layout_height="410dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginVertical="40dp"
+        android:background="#e7920a"
+        android:orientation="vertical"
+        >
+
+        <LinearLayout
+            android:layout_width="250dp"
+            android:layout_height="308dp"
+            android:layout_marginHorizontal="14dp"
+            android:layout_marginVertical="10dp"
+            android:background="#3b8c68"
+            android:orientation="vertical">
+
+            <TextView
+                style="@style/Base.TextAppearance.AppCompat.Headline"
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:layout_marginHorizontal="50dp"
+                android:layout_marginTop="50dp"
+                android:text="login form"
+                android:textAllCaps="true"
+                android:textColor="#fefe" />
+
+            <EditText
+                android:text="username"
+                android:layout_width="225dp"
+                android:layout_height="50dp"
+                android:layout_marginHorizontal="12dp"
+                android:layout_marginTop="20dp"
+                />
+
+            <EditText
+                android:text="password"
+                android:layout_width="225dp"
+                android:layout_height="50dp"
+                android:layout_marginHorizontal="12dp"
+                android:layout_marginTop="5dp"
+                />
+
+            <Button
+                android:text="login"
+                android:textColor="#fcfbfb"
+                android:background="#544e4e"
+                android:layout_width="75dp"
+                android:layout_height="50dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="162dp"
+                />
+
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/cl_cancel"
+            android:text="cancel"
+            android:layout_width="80dp"
+            android:layout_height="50dp"
+            android:layout_marginLeft="180dp"
+            />
+
+    </LinearLayout>
+
+
+</LinearLayout>
